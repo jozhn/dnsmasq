@@ -1,0 +1,2 @@
+# dnsmasq
+for openwrt-lede
