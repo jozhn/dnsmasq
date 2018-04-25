@@ -7,3 +7,7 @@ for Openwrt-LEDE especially R5 by LEAN
 
 # chmod +x dnsmasq.sh && sh dnsmasq.sh
 ```
+## Update
+```
+# /bin/sh /etc/dnsmasq/fq_update.sh
+```
