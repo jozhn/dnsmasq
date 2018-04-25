@@ -198,8 +198,8 @@ sed -i '/dnsmasq/d' $CRON_FILE
 sed -i '/@/d' $CRON_FILE
 echo
 echo "[$USER@$HOSTNAME:/$USER]#cat /etc/crontabs/$USER
-# 每天6点28分更新dnsmasq扶墙规则
-28 6 * * * /bin/sh /etc/dnsmasq/fq_update.sh > /dev/null 2>&1" >> $CRON_FILE
+# 每天7点28分更新dnsmasq扶墙规则
+28 7 * * * /bin/sh /etc/dnsmasq/fq_update.sh > /dev/null 2>&1" >> $CRON_FILE
 /etc/init.d/cron reload
 echo -e "\e[1;36m 定时计划任务添加完成！\e[0m"
 sleep 1
